@@ -32,8 +32,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main4Activity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        //<activity android:name=".Main5Activity"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        //
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".testFragmentActivity"></activity>
     </application>
 
 </manifest>
