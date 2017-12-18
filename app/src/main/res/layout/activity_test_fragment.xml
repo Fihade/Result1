@@ -5,5 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mila.result.testFragmentActivity">
+    <LinearLayout
+        android:id="@+id/test_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/test_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below = "@id/test_tittle"
+        >
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
